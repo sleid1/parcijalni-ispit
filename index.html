@@ -1,20 +1,102 @@
 <!DOCTYPE html>
 <html lang="hr">
-<head>
-    <title>Harry Potter i Kamen mudraca</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body style="padding:40px; width: 600px; margin: auto; text-align: center">
-<h1>Harry Potter i Kamen mudraca</h1>
-<img src="assets/HP1.jpg" title="Harry Potter" lang="en" alt="Harry Potter">
-<p style="text-align: justify;">
-    Harry Potter i Kamen mudraca prva je od sedam knjiga iz serijala o Harryju
-    Potteru autorice J. K. Rowling. Knjiga je prvi put objavljena 26. lipnja
-    1997. u izdanju Bloomsbury Publishinga, a kasnije je po njoj snimljen i
-    istoimeni film. Kamen mudraca se smatra jednom od najprodavanijih knjiga
-    ikada te je prvi dio najprodavanijeg serijala u povijesti pisane riječi.
-    To je i najpopularnija od knjiga iz serijala po broju prodanih primjeraka
-    - procjenjuje se da je u svijetu prodana u 107 milijuna primjeraka.
-</p>
-</body>
+   <head>
+      <title>Harry Potter i Kamen mudraca</title>
+      <link
+         rel="stylesheet"
+         href="node_modules/bootstrap/dist/css/bootstrap.css"
+      />
+      <link rel="stylesheet" href="./index.css" />
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#">Harry Potter</a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+            >
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#"
+                        >Home</a
+                     >
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">About Harry Potter</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                     >
+                        Harry Potter Books
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Book 1</a></li>
+                        <hr class="dropdown-divider" />
+                        <li>
+                           <a class="dropdown-item" href="#">Book 2</a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                           <a class="dropdown-item" href="#">Book 3</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <form class="d-flex" role="search">
+                  <input
+                     class="form-control me-2"
+                     type="search"
+                     placeholder="Search"
+                     aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                     Search
+                  </button>
+               </form>
+            </div>
+         </div>
+      </nav>
+      <div class="podatak">
+         <h2 class="ime_prezime">KRISTIJAN ĐINI</h2>
+      </div>
+      <main>
+         <h1>Harry Potter i Kamen mudraca</h1>
+         <img
+            src="assets/HP1.jpg"
+            title="Harry Potter"
+            lang="en"
+            alt="Harry Potter"
+         />
+         <p style="text-align: justify">
+            Harry Potter i Kamen mudraca prva je od sedam knjiga iz serijala o
+            Harryju Potteru autorice J. K. Rowling. Knjiga je prvi put
+            objavljena 26. lipnja 1997. u izdanju Bloomsbury Publishinga, a
+            kasnije je po njoj snimljen i istoimeni film. Kamen mudraca se
+            smatra jednom od najprodavanijih knjiga ikada te je prvi dio
+            najprodavanijeg serijala u povijesti pisane riječi. To je i
+            najpopularnija od knjiga iz serijala po broju prodanih primjeraka -
+            procjenjuje se da je u svijetu prodana u 107 milijuna primjeraka.
+         </p>
+      </main>
+
+      <script
+         src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+         async
+         defer
+      ></script>
+   </body>
 </html>
